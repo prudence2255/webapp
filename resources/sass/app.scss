@@ -1,0 +1,68 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import './styles/header';
+@import './styles/footer';
+@import './styles/navbar';
+@import './styles/post';
+@import './styles/home';
+@import './styles/navigation';
+@import './styles/admin_header';
+@import './styles/dashboard';
+@import './styles/login';
+
+//global styles
+body{
+ font-family: $font-family-sans-serif;
+    line-height: $line-height-base;
+    min-height: 100vh;
+    background-color: $body-bg;
+    position: relative;
+    padding-bottom: 200px;
+}
+@media(max-width: 768px){
+    body{
+        padding-bottom: 350px;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    font-weight: bolder;
+}
+.admin{
+    margin-top: 70px;
+}
+.error{
+    color: red;
+}
+
+//date
+.date{
+    font-weight: lighter;
+    font-size: small;
+}
+
+//social share
+.facebook, .whatsapp, .twitter{
+    margin: 0px 40px;
+}
+
+.facebook i{
+    color: rgb(12, 12, 107);
+}
+.whatsapp i{
+    color: rgb(11, 194, 11)
+}
+
+.twitter i{
+    color: lightseagreen
+}

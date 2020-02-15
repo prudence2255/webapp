@@ -1,0 +1,34 @@
+
+.title{
+    font-weight: bolder;
+}
+.category-name{
+    background-color: blue;
+    color: white;
+}
+.read-more{
+    padding: 10px 25px;
+    background-color: green;
+    color: white;
+}
+.home-card{
+    height: 280px;
+}
+.home-card img{
+    height: 130px;
+}
+.recent-posts{
+    background-color: green;
+    color: white;
+    padding: 10px 0px;
+}
+@media(max-width: 576px){
+    .home-card{
+        height: 280px;
+    }
+    .home-card img{
+        height: 180px;
+    }
+    
+    
+}

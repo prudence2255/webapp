@@ -1,0 +1,44 @@
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    background-color: green;
+    width: 100%;
+    transition: all 0.3s;
+}
+.navigation li{
+    list-style-type: none;
+    color: white;
+}
+.navigation li:hover{
+    background-color: grey;
+}
+
+@media (max-width: 760px){
+    .navigation{
+        flex-direction: column-reverse;
+        justify-content: initial;
+        display: none;
+        min-height: 500px;
+        padding-top: 20px;
+    }
+    .navigation .category{
+        width: 100%;
+        border-bottom: 1px solid teal;
+    }
+}
+.search-box, .search-btn{
+    border-radius: 50px;
+    height: 25px;
+}
+
+.open{
+   display: block;
+    width: 100%;
+    position: fixed;
+ }
+
+.active{
+    background-color: blue;
+}
