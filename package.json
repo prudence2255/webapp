@@ -29,7 +29,7 @@
         "@babel/preset-env": "^7.7.7",
         "formik": "^2.1.0",
         "install": "^0.13.0",
-        "moment-timezone": "^0.5.27",
+        "moment-timezone": "^0.5.35",
         "prop-types": "^15.7.2",
         "quill-better-table": "^1.2.8",
         "quill-image-resize": "^3.0.9",
